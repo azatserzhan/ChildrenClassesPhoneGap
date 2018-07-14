@@ -1,0 +1,73 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "kz.children.classes"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "kz.children.classes"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "kz.children.classes"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "kz.children.classes"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "kz.children.classes"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "io.cordova.hellocordova"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "kz.children.classes"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "kz.children.classes"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "kz.children.classes"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "kz.children.classes"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "kz.children.classes"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "kz.children.classes"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "kz.children.classes"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "kz.children.classes"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "kz.children.classes"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "kz.children.classes"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "kz.children.classes"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "kz.children.classes"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "kz.children.classes"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "kz.children.classes"
+        }
+    }
+}
