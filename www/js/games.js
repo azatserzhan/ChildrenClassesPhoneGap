@@ -36,7 +36,7 @@ var Games = {
             });
 
             $('#' + appedned).append('<div id="g-sort-container" class="center">' +
-                '<div id="g-sort-title">' + sortTitle[res.lang] + '<img id="g-sort-sound" class="button" src="images/text/sound.png">'+'</div>' +
+                '<div id="g-sort-title">' + sortTitle[res.lang] + '<img id="g-sort-sound" class="button" src="images/text/sound.png">' + '</div>' +
                 '<div id="g-sort-box"></div></div>');
 
             $('#g-sort-box').html(code);
@@ -69,18 +69,18 @@ var Games = {
 
         mySound.stop();
         mySound.play([
-            'sounds/pray/ru/'+localStorage.getItem('currentLevel')+'.mp3',
-            'sounds/pray/kz/'+localStorage.getItem('currentLevel')+'.mp3',
-            'sounds/pray/en/'+localStorage.getItem('currentLevel')+'.mp3',
+            'sounds/pray/ru/' + localStorage.getItem('currentLevel') + '.mp3',
+            'sounds/pray/kz/' + localStorage.getItem('currentLevel') + '.mp3',
+            'sounds/pray/en/' + localStorage.getItem('currentLevel') + '.mp3',
         ]);
 
-        $('#g-sort-sound').click(function(){
+        $('#g-sort-sound').click(function() {
             mySound.stop();
             mySound.play([
-            'sounds/pray/ru/'+localStorage.getItem('currentLevel')+'.mp3',
-            'sounds/pray/kz/'+localStorage.getItem('currentLevel')+'.mp3',
-            'sounds/pray/en/'+localStorage.getItem('currentLevel')+'.mp3',
-        ]);           
+                'sounds/pray/ru/' + localStorage.getItem('currentLevel') + '.mp3',
+                'sounds/pray/kz/' + localStorage.getItem('currentLevel') + '.mp3',
+                'sounds/pray/en/' + localStorage.getItem('currentLevel') + '.mp3',
+            ]);
         });
     },
 
@@ -166,7 +166,7 @@ var Games = {
 
             }
             $('#' + appedned).append('<div id="g-select-container" class="center">' +
-                '<div id="g-select-title">' + listTitle[res.lang] + '<img id="g-select-sound" class="button" src="images/text/sound.png">'+'</div>' +
+                '<div id="g-select-title">' + listTitle[res.lang] + '<img id="g-select-sound" class="button" src="images/text/sound.png">' + '</div>' +
                 '<div id="g-select-game"></div></div>');
             $('#g-select-game').html(code);
             $('#g-select-game').append('<div id="s-check" class="button">Проверить</div>')
@@ -204,18 +204,18 @@ var Games = {
         $('#g-select-container').draggable();
         mySound.stop();
         mySound.play([
-            'sounds/pray/ru/'+localStorage.getItem('currentLevel')+'.mp3',
-            'sounds/pray/kz/'+localStorage.getItem('currentLevel')+'.mp3',
-            'sounds/pray/en/'+localStorage.getItem('currentLevel')+'.mp3',
+            'sounds/pray/ru/' + localStorage.getItem('currentLevel') + '.mp3',
+            'sounds/pray/kz/' + localStorage.getItem('currentLevel') + '.mp3',
+            'sounds/pray/en/' + localStorage.getItem('currentLevel') + '.mp3',
         ]);
 
-        $('#g-select-sound').click(function(){
+        $('#g-select-sound').click(function() {
             mySound.stop();
             mySound.play([
-            'sounds/pray/ru/'+localStorage.getItem('currentLevel')+'.mp3',
-            'sounds/pray/kz/'+localStorage.getItem('currentLevel')+'.mp3',
-            'sounds/pray/en/'+localStorage.getItem('currentLevel')+'.mp3',
-        ]);           
+                'sounds/pray/ru/' + localStorage.getItem('currentLevel') + '.mp3',
+                'sounds/pray/kz/' + localStorage.getItem('currentLevel') + '.mp3',
+                'sounds/pray/en/' + localStorage.getItem('currentLevel') + '.mp3',
+            ]);
         });
     },
 
@@ -266,8 +266,8 @@ var Games = {
 
 
             $('#' + appedned).append('<div id="g-button-box"></div>');
-            $('#g-button-box').html('<div id="g-button-box-text" class="center">'+
-                '<div id="g-button-title">'+clickTitle[res.lang]+'<img id="g-button-sound" class="button" src="images/text/sound.png">'+'</div>'+
+            $('#g-button-box').html('<div id="g-button-box-text" class="center">' +
+                '<div id="g-button-title">' + clickTitle[res.lang] + '<img id="g-button-sound" class="button" src="images/text/sound.png">' + '</div>' +
                 '<div id="g-button-container"></div></div>' +
                 '<div id="g-button-check" class="button">Проверить</div>' +
                 '<div id="g-info"></div>');
@@ -345,22 +345,18 @@ var Games = {
 
         mySound.stop();
         mySound.play([
-            'sounds/pray/ru/'+localStorage.getItem('currentLevel')+'.mp3',
-            'sounds/pray/kz/'+localStorage.getItem('currentLevel')+'.mp3',
-            'sounds/pray/en/'+localStorage.getItem('currentLevel')+'.mp3',
+            'sounds/pray/ru/' + localStorage.getItem('currentLevel') + '.mp3',
+            'sounds/pray/kz/' + localStorage.getItem('currentLevel') + '.mp3',
+            'sounds/pray/en/' + localStorage.getItem('currentLevel') + '.mp3',
         ]);
-        mySound.play([
-            'sounds/pray/ru/'+localStorage.getItem('currentLevel')+'.mp3',
-            'sounds/pray/kz/'+localStorage.getItem('currentLevel')+'.mp3',
-            'sounds/pray/en/'+localStorage.getItem('currentLevel')+'.mp3',
-        ]);
-        $('#g-button-sound').click(function(){
+
+        $('#g-button-sound').click(function() {
             mySound.stop();
             mySound.play([
-            'sounds/pray/ru/'+localStorage.getItem('currentLevel')+'.mp3',
-            'sounds/pray/kz/'+localStorage.getItem('currentLevel')+'.mp3',
-            'sounds/pray/en/'+localStorage.getItem('currentLevel')+'.mp3',
-        ]);           
+                'sounds/pray/ru/' + localStorage.getItem('currentLevel') + '.mp3',
+                'sounds/pray/kz/' + localStorage.getItem('currentLevel') + '.mp3',
+                'sounds/pray/en/' + localStorage.getItem('currentLevel') + '.mp3',
+            ]);
         });
     },
 
@@ -375,7 +371,7 @@ var Games = {
             '<img id="g-text-play" class="button" src="images/text/play.png">' +
             '<div id="g-text-box">' +
             '<div id="g-text-title">Title</div></div>' +
-            '<div id="g-text-img">'+
+            '<div id="g-text-img">' +
             '<img id="g-text-zoom" class="button" src="images/text/zoom.png">' +
             '<img id="g-text-exit" class="button" src="images/text/exit.png">' +
             '</div></div>');
@@ -423,16 +419,19 @@ var Games = {
         $('#g-text-title').html(titleText);
 
         $('#g-text-play').click(function() {
+            mySound.stop();
+            mySound.play([
+                'sounds/history/ru/' + localStorage.getItem('currentLevel') + '.mp3',
+                'sounds/history/kz/' + localStorage.getItem('currentLevel') + '.mp3',
+                'sounds/history/en/' + localStorage.getItem('currentLevel') + '.mp3',
+            ]);
+            
+
             $('#g-text-container').animate({
                 height: '300px'
             }, 500, function() {
                 textAnim();
-                mySound.stop();
-                mySound.play([
-                    'sounds/history/ru/'+localStorage.getItem('currentLevel')+'.mp3',
-                    'sounds/history/kz/'+localStorage.getItem('currentLevel')+'.mp3',
-                    'sounds/history/en/'+localStorage.getItem('currentLevel')+'.mp3',
-                ]);
+
             });
 
             $('#g-text-play').attr('src', 'images/text/pause.png');
@@ -456,9 +455,9 @@ var Games = {
             $('#g-text-play').click(function() {
                 mySound.stop();
                 mySound.play([
-                    'sounds/history/ru/'+localStorage.getItem('currentLevel')+'.mp3',
-                    'sounds/history/kz/'+localStorage.getItem('currentLevel')+'.mp3',
-                    'sounds/history/en/'+localStorage.getItem('currentLevel')+'.mp3',
+                    'sounds/history/ru/' + localStorage.getItem('currentLevel') + '.mp3',
+                    'sounds/history/kz/' + localStorage.getItem('currentLevel') + '.mp3',
+                    'sounds/history/en/' + localStorage.getItem('currentLevel') + '.mp3',
                 ]);
 
                 $('#g-text-play').attr('src', 'images/text/pause.png');
@@ -477,10 +476,10 @@ var Games = {
             }, 1000)
         })
 
-        
-        $('#g-text-zoom').click(function(){
-            if( $(this).hasClass('g-text-zoom') == false ){
-                $(this).addClass( 'g-text-zoom' );
+
+        $('#g-text-zoom').click(function() {
+            if ($(this).hasClass('g-text-zoom') == false) {
+                $(this).addClass('g-text-zoom');
                 $('#g-text-container').animate({
                     height: '780px',
                 }, 1000);
@@ -488,9 +487,9 @@ var Games = {
                     height: '700px',
                 }, 1000);
                 $(this).attr('src', 'images/text/zoom2.png');
-            }else{
+            } else {
                 $(this).attr('src', 'images/text/zoom.png');
-                $(this).removeClass( 'g-text-zoom' );
+                $(this).removeClass('g-text-zoom');
                 $('#g-text-container').animate({
                     height: '380px',
                 }, 1000);
@@ -498,10 +497,17 @@ var Games = {
                     height: '300px',
                 }, 1000);
             }
-            
+
         });
 
         $('#g-text-container').draggable();
+
+        mySound.stop();
+        mySound.play([
+            'sounds/title/ru/'+localStorage.getItem('currentLevel')+'.mp3',
+            'sounds/title/kz/'+localStorage.getItem('currentLevel')+'.mp3',
+            'sounds/title/en/'+localStorage.getItem('currentLevel')+'.mp3',
+        ]);
     },
 
 }
