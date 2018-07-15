@@ -5,12 +5,12 @@ var soundArr = [];
 var mySound = {
     //Вызов звуков
     play: function(src) {
-        src = src[res.lang];
         try {
+            src = src[res.lang];
             sound = new Audio(src);
+            console.log('play src: ', src)
             sound.play();
             soundArr.push(sound);
-            console.log('play src: ', src)
         } catch (e) {
             console.log('sounds.js файл не найден');
         }
