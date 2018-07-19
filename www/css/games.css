@@ -4,7 +4,7 @@
     position: absolute;
     top: 890px;
     background-color: white;
-    width: 1660px;
+    width: 2280px;
     height: auto;
     -webkit-box-shadow: 3px 3px 8px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow: 3px 3px 8px 0px rgba(50, 50, 50, 0.75);
@@ -16,10 +16,10 @@
 
 #g-sort-title {
     width: 1000px;
-    height: 100px;
+    height: 130px;
     background-color: white;
     margin: 20px 0px -50px 30px;
-    font-size: 45px;
+    font-size: 56px;
     font-family: h2;
 }
 
@@ -32,14 +32,14 @@
 }
 
 
-#g-sort-sound{position: absolute;left: 1583px;}
+#g-sort-sound{position: absolute;left: 2211px;border: 38px solid white;border-radius: 110px;-webkit-box-shadow: 10px 10px 32px -8px rgba(0,0,0,0.75);-moz-box-shadow: 10px 10px 32px -8px rgba(0,0,0,0.75);box-shadow: 10px 10px 32px -8px rgba(0,0,0,0.75);top: -53px;}
 
 
 .g-sort {
-    padding: 20px;
+    padding: 56px;
     margin: 4px;
     background-color: white;
-    font-size: 35px;
+    font-size: 56px;
     color: back;
     height: 39px;
     -webkit-box-shadow: 3px 3px 8px 0px rgba(50, 50, 50, 0.75);
@@ -56,7 +56,7 @@
 #g-select-container {
     position: absolute;
     top: 890px;
-    width: 1500px;
+    width: 2100px;
     background-color: white;
     padding: 20px;
     -webkit-box-shadow: 3px 3px 8px 0px rgba(50, 50, 50, 0.75);
@@ -93,31 +93,32 @@
 .g-select {}
 
 .s-text {
-    font-size: 40px;
+    font-size: 56px;
     font-family: h1;
     text-align: center;
     margin: 5px;
     padding: 5px;
 }
 
-#g-select-sound{position: absolute;left: 799px;margin: 0px 0px 0px 670px;}
+#g-select-sound{position: absolute;left: 1299px;margin: -90px 0 0 770px;border: 38px solid white;border-radius: 110px;-webkit-box-shadow: 10px 10px 32px -8px rgba(0,0,0,0.75);-moz-box-shadow: 10px 10px 32px -8px rgba(0,0,0,0.75);box-shadow: 10px 10px 32px -8px rgba(0,0,0,0.75);}
 
 #s-check {
     position: absolute;
-    top: -75px;
-    left: 1240px;
+    top: -56px;
+    left: 1680px;
     width: 300px;
-    background-color: #007fff;
+    background-color: #00a1d9;
     color: white;
     height: 60px;
-    font-size: 30px;
+    font-size: 56px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: h2;
+    font-family: h1;
     -webkit-box-shadow: 3px 3px 8px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow: 3px 3px 8px 0px rgba(50, 50, 50, 0.75);
     box-shadow: 3px 3px 8px 0px rgba(50, 50, 50, 0.75);
+    border: 20px solid #00a1d9;
 }
 
 
@@ -137,14 +138,14 @@
     position: absolute;
     top: 890px;
     background-color: white;
-    width: 1540px;
+    width: 2230px;
     -webkit-box-shadow: 3px 3px 8px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow: 3px 3px 8px 0px rgba(50, 50, 50, 0.75);
     box-shadow: 3px 3px 8px 0px rgba(50, 50, 50, 0.75);
 }
 
 #g-button-title {
-    font-size: 40px;
+    font-size: 56px;
     margin: 20px 0px 0px 40px;
 }
 
@@ -152,42 +153,42 @@
     padding: 10px;
     background-color: white;
     margin: 2px;
-    font-size: 35px;
+    font-size: 56px;
     font-family: h1;
 }
 
 #g-button-check {
     position: absolute;
-    background-color: #007fff;
+    background-color: #00a1d9;
     color: white;
-    width: 200px;
+    width: 370px;
     flex-wrap: wrap;
     padding: 10px;
-    top: 750px;
-    left: 1829px;
+    top: 845px;
+    left: 1885px;
     display: flex;
     justify-content: center;
     align-items: end;
-    font-size: 30px;
-    font-family: h2;
+    font-size: 56px;
+    font-family: h1;
     -webkit-box-shadow: 3px 3px 8px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow: 3px 3px 8px 0px rgba(50, 50, 50, 0.75);
     box-shadow: 3px 3px 8px 0px rgba(50, 50, 50, 0.75);
 }
-#g-button-sound{position: absolute;left: 799px;margin: 0px 0px 0px 670px;}
+#g-button-sound{position: absolute;left: 1404px;margin: 30px 0 0px 760px;border: 38px solid white;border-radius: 110px;-webkit-box-shadow: 10px 10px 32px -8px rgba(0,0,0,0.75);-moz-box-shadow: 10px 10px 32px -8px rgba(0,0,0,0.75);box-shadow: 10px 10px 32px -8px rgba(0,0,0,0.75);top: -90px;}
 
 #g-info {
     position: absolute;
     background-color: white;
-    width: 570px;
+    width: 880px;
     flex-wrap: wrap;
     padding: 10px;
-    top: 817px;
-    left: 1458px;
+    top: 787px;
+    left: 168px;
     display: flex;
     justify-content: center;
     align-items: end;
-    font-size: 34px;
+    font-size: 56px;
     font-family: h2;
     -webkit-box-shadow: 3px 3px 8px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow: 3px 3px 8px 0px rgba(50, 50, 50, 0.75);
@@ -210,7 +211,7 @@
     position: absolute;
     top: 810px;
     width: 1500px;
-    height: 90px;
+    height: 100px;
     background-color: white;
     display: flex;
     justify-content: left;
@@ -225,6 +226,8 @@
 #g-text-play {
     padding: 10px;
     z-index: 2;
+    width: 107px;
+    height: 107px;
 }
 
 #g-text-title {

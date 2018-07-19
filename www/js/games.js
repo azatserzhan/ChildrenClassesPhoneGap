@@ -57,15 +57,15 @@ var Games = {
                         setTimeout(function() {
                             $('#g-sort-container').remove();
                             onFinish = param['onFinish'];
-                            onFinish()
-                        }, 1000)
-                    }, 1000)
+                            onFinish();
+                        }, 1000);
+                    }, 1000);
 
                 }
             }
         });
 
-        $('#g-sort-container').draggable();
+        //$('#g-sort-container').draggable();
 
         mySound.stop();
         mySound.play([
@@ -201,7 +201,7 @@ var Games = {
             }
         });
 
-        $('#g-select-container').draggable();
+        //$('#g-select-container').draggable();
         mySound.stop();
         mySound.play([
             'sounds/pray/ru/'+localStorage.getItem('currentLevel')+'.mp3',
@@ -376,7 +376,7 @@ var Games = {
             '<div id="g-text-box">' +
             '<div id="g-text-title">Title</div></div>' +
             '<div id="g-text-img">'+
-            '<img id="g-text-zoom" class="button" src="images/text/zoom.png">' +
+            /*'<img id="g-text-zoom" class="button" src="images/text/zoom.png">' +*/
             '<img id="g-text-exit" class="button" src="images/text/exit.png">' +
             '</div></div>');
 
@@ -424,7 +424,8 @@ var Games = {
 
         $('#g-text-play').click(function() {
             $('#g-text-container').animate({
-                height: '300px'
+                height: '300px',
+                width: '2180px',
             }, 500, function() {
                 textAnim();
                 mySound.stop();
@@ -433,13 +434,17 @@ var Games = {
                     'sounds/history/kz/'+localStorage.getItem('currentLevel')+'.mp3',
                     'sounds/history/en/'+localStorage.getItem('currentLevel')+'.mp3',
                 ]);
+                $('#g-text-content').animate({
+                    width: '1890px'
+                }, 500);
             });
+            
 
             $('#g-text-play').attr('src', 'images/text/pause.png');
             $('#g-text-img').css('visibility', 'visible');
             $('#g-text-play').unbind();
             pauseFirst();
-        })
+        });
 
         function pauseFirst() {
 
@@ -448,7 +453,7 @@ var Games = {
                 mySound.stop();
                 $('#g-text-play').unbind();
                 pauseSecond();
-            })
+            });
         };
 
         function pauseSecond() {
@@ -464,7 +469,7 @@ var Games = {
                 $('#g-text-play').attr('src', 'images/text/pause.png');
                 $('#g-text-play').unbind();
                 pauseFirst();
-            })
+            });
         };
 
         $('#g-text-exit').click(function() {
@@ -501,7 +506,7 @@ var Games = {
             
         });
 
-        $('#g-text-container').draggable();
+        //$('#g-text-container').draggable();
 
         mySound.stop();
         mySound.play([
