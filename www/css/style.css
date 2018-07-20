@@ -142,7 +142,7 @@ body {
 
 
 .level-container{font-size: 30px;font-family: h2;display: flex;justify-content: center;align-items: center;flex-direction: column;background-color: #65484800;padding: 20px;border-radius: 10px;margin: 10px;width: 407px;height: 310px;text-align: center;}
-.level-name{background-color: white;width: 105%;height: 120px;display: flex;justify-content: center;align-items: center;margin: -55px 0 0 0;border-radius: 0 0 10px 10px;-webkit-box-shadow: 3px 3px 8px 0px rgba(50, 50, 50, 0.75);-moz-box-shadow: 3px 3px 8px 0px rgba(50, 50, 50, 0.75);box-shadow: 3px 3px 8px 0px rgba(50, 50, 50, 0.75);font-size: 25px;}
+.level-name{background-color: white;width: 105%;height: 120px;display: flex;justify-content: center;align-items: center;margin: -55px 0 0 0;border-radius: 0 0 10px 10px;-webkit-box-shadow: 3px 3px 8px 0px rgba(50, 50, 50, 0.75);-moz-box-shadow: 3px 3px 8px 0px rgba(50, 50, 50, 0.75);box-shadow: 3px 3px 8px 0px rgba(50, 50, 50, 0.75);font-size: 40px;font-family: h1;}
 .level-img{border-radius: 20px 20px 0px 0px;-webkit-box-shadow: 3px 3px 8px 0px rgba(50, 50, 50, 0.75);-moz-box-shadow: 3px 3px 8px 0px rgba(50, 50, 50, 0.75);box-shadow: 3px 3px 8px 0px rgba(50, 50, 50, 0.75);width: 424px;height: 267px;}
 
 
